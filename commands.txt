@@ -1,0 +1,4 @@
+To create a wallet in Blockchain we need to generate the Public and Private key pair.
+Private key is used to sign the transactions and Public key is used to verify the transactions.
+Private key should be kept safely and should never be shared with anyone whereas Public key can be shared.
+
