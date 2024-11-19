@@ -2,3 +2,13 @@ To create a wallet in Blockchain we need to generate the Public and Private key 
 Private key is used to sign the transactions and Public key is used to verify the transactions.
 Private key should be kept safely and should never be shared with anyone whereas Public key can be shared.
 
+Alchemy Solana Devnet : https://solana-devnet.g.alchemy.com/v2/M67QZVZmh5utc6fOdeGJzzhkzc5iYneL
+Alchemy Solana Mainnet : https://solana-mainnet.g.alchemy.com/v2/M67QZVZmh5utc6fOdeGJzzhkzc5iYneL
+Ethereum Mainnet : https://eth-mainnet.g.alchemy.com/v2/M67QZVZmh5utc6fOdeGJzzhkzc5iYneL
+
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBalance",
+    "params": ["J1S7dX2k5iRnaTGboYw6KYV2GXnGvEW9Z7oCx64oHHGm", "latest"]
+}
