@@ -5,6 +5,7 @@ Private key should be kept safely and should never be shared with anyone whereas
 Alchemy Solana Devnet : https://solana-devnet.g.alchemy.com/v2/M67QZVZmh5utc6fOdeGJzzhkzc5iYneL
 Alchemy Solana Mainnet : https://solana-mainnet.g.alchemy.com/v2/M67QZVZmh5utc6fOdeGJzzhkzc5iYneL
 Ethereum Mainnet : https://eth-mainnet.g.alchemy.com/v2/M67QZVZmh5utc6fOdeGJzzhkzc5iYneL
+Wallet Adapter : https://github.com/anza-xyz/wallet-adapter?tab=readme-ov-file
 
 {
     "jsonrpc": "2.0",
@@ -16,4 +17,5 @@ Ethereum Mainnet : https://eth-mainnet.g.alchemy.com/v2/M67QZVZmh5utc6fOdeGJzzhk
 solana-keygen new --outfile keypair.json
 solana address
 solana config get
-solana config set --url https://api.devnet.solana.com
+solana config set --url https://api.devnet.solana.com 
+spl-token create-token #creates Mint Account
